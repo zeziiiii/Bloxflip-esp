@@ -3,17 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Zezi ESP</title>
+  <title>Kirby ESP</title>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="highlight.css">
   <style>
     body {
       font-family: 'Montserrat', sans-serif;
-      background-color: #240024;
+      background-color: #4a006e;
       color: #fff;
       padding: 10px;
       margin: 0;
-      background-image: linear-gradient(90deg, #4d004d, #240024, #4d004d);
+      background-image: linear-gradient(90deg, #8a2be2, #4a006e, #8a2be2);
       animation: neonGlow 1.5s infinite alternate;
     }
 
@@ -30,16 +30,16 @@
       width: 350px;
       padding: 20px;
       border-radius: 15px;
-      background-color: rgba(44, 0, 44, 0.8);
-      box-shadow: 0 0 20px rgba(102, 0, 204, 0.5), 0 0 40px rgba(102, 0, 204, 0.5);
+      background-color: rgba(74, 0, 110, 0.8);
+      box-shadow: 0 0 20px rgba(138, 43, 226, 0.5), 0 0 40px rgba(138, 43, 226, 0.5);
     }
 
     h1 {
       font-size: 2em;
       margin-bottom: 20px;
       text-align: center;
-      color: #ff00ff;
-      text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff;
+      color: #d8a9ff;
+      text-shadow: 0 0 10px #d8a9ff, 0 0 20px #d8a9ff, 0 0 30px #d8a9ff;
     }
 
     label {
@@ -54,13 +54,13 @@
       margin-bottom: 20px;
       border: none;
       border-radius: 15px;
-      background-color: #330033;
+      background-color: #6b0092;
       color: #fff;
       font-size: 1em;
       font-family: 'Montserrat', sans-serif;
       appearance: none;
       outline: none;
-      box-shadow: 0 0 15px rgba(204, 0, 204, 0.5);
+      box-shadow: 0 0 15px rgba(138, 43, 226, 0.5);
     }
 
     input[type="number"]::-webkit-inner-spin-button,
@@ -70,23 +70,23 @@
     }
 
     input[type="number"]::placeholder {
-      color: #888;
+      color: #aaa;
     }
 
     button {
       padding: 10px 20px;
-      background-color: #cc00cc;
+      background-color: #7a00a1;
       color: #fff;
       border: none;
       border-radius: 15px;
       cursor: pointer;
       transition: background-color 0.3s, box-shadow 0.3s;
       width: 100%;
-      box-shadow: 0 0 15px rgba(204, 0, 204, 0.5);
+      box-shadow: 0 0 15px rgba(138, 43, 226, 0.5);
     }
 
     button:hover {
-      background-color: #a800a8;
+      background-color: #5f007a;
     }
 
     #loadingImage {
@@ -101,13 +101,13 @@
       margin: auto;
       width: 100px;
       height: 100px;
-      filter: drop-shadow(0 0 10px #ff00ff);
+      filter: drop-shadow(0 0 10px #d8a9ff);
     }
   </style>
 </head>
 <body>
   <div class="popup-container">
-    <h1>Zezi ESP</h1>
+    <h1>Kirby ESP</h1>
     <label for="numBoxesInput">Enter number:</label>
     <input type="number" id="numBoxesInput" placeholder="Number of boxes">
     <button id="highlightButton">Predict</button>
